@@ -40,7 +40,7 @@ st.markdown("A extensão do arquivo deve ser `.py`, ou seja, no formato de Pytho
 matricula = st.text_input('Matricula')
 
 if matricula:
-    st.write('Oi ', get_name(matricula).split()[0].title())
+    st.write('Oi ', get_name(matricula).split()[0].title(), 'Tudo bem?')
     st.write(f"As questões para voce resolver são {df[df['Matricula']==int(matricula)]['lista_4 exercicios'].iloc[0]}")
 
 
