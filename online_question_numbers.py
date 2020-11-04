@@ -34,8 +34,8 @@ df = pd.read_csv('alunos_matriculados.csv')
 
 
 #Initialization
-st.title("Checagem online das listas de Analise Vetorial - 2020/01")
-st.markdown("A extensão do arquivo deve ser `.py`, ou seja, no formato de Python puro. Para mais instruções verifiquem [YouTube](https://youtu.be/Y4IDTneyMns). ")
+st.title("Insira a sua matrícula e aperte ENTER")
+#st.markdown("A extensão do arquivo deve ser `.py`, ou seja, no formato de Python puro. Para mais instruções verifiquem [YouTube](https://youtu.be/Y4IDTneyMns). ")
 
 matricula = st.text_input('Matricula')
 
