@@ -33,7 +33,7 @@ matricula = st.text_input('Matricula')
 
 if matricula:
     st.write('Oi ', get_name(matricula).split()[0].title(), 'Tudo bem?')
-    st.write(f"As questões para voce resolver são {df[df['Matricula']==int(matricula)]['lista_4 exercicios'].iloc[0]}")
+    st.write(f"As questões para voce resolver são {df[df['Matricula']==int(matricula)]['lista_5 exercicios'].iloc[0]}")
 
 
 
